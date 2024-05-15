@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    background:#626262;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.subContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 355px;
+    height: 181px;
+    background: rgb(172, 169, 169);
+    text-align: center;
+    border-radius: 15px;
+}
+.subContainer h3{
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.47px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.subContainer button{
+    width: 167px;
+    height: 34px;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.38px;
+    text-align: center;
+    cursor: pointer;
+}
+.expenseForm ,.incomeForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 225px;
+    height: 50px;
+    
+}
+.input-box input ,select{
+    width: 225px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.input-box button{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    cursor: pointer;
+}
+.modal-input {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+}
+.modal-input input{
+    width: 217px;
+    background-color: #FBFBFB;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.modal-input button{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    line-height: 21px;
+}

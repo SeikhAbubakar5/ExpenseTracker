@@ -1,0 +1,121 @@
+.containerBox{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+
+}
+.containerBox h3{
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32.17px;
+    text-align: left;
+}
+.containers{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 740px;
+    height: 345px;
+    border-radius: 15px;
+}
+.transactions{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btns button{
+    width: 37px;
+    height: 37px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+}
+.prevNextBtns{
+    position: relative;
+    margin-left: 300px;
+    margin-bottom: 10px;
+
+}
+.prevNextBtns button{
+    width: 37px;
+    height: 37px;
+    border: none;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.barChart{
+    width: 417px;
+    height: 345px;
+    border-radius: 15px ;
+    background: #FFFFFF;
+    margin-right: 20px;
+}
+ .editForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 225px;
+    height: 50px;
+    
+}
+.input-box input ,select{
+    width: 225px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.input-box button{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    cursor: pointer;
+}
+.modal-input {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+}
+.modal-input input{
+    width: 217px;
+    background-color: #FBFBFB;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.modal-input button{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    line-height: 21px;
+} 
